@@ -5,8 +5,18 @@
 // complémentaires l’un de l’autre, comme "C" et "G". Ecrire une fonction qui à partir
 // d’une chaine ADN donne son complémentaire.
 
-DNAStrand ("ATTGC")// -> "TAACG"
-DNAStrand ("GTAT")// -> "CATA"
+function DNAStrand(adn){
+
+    
+
+    const remplacer = adn.replace();
+    return ;
+
+
+}
+
+console.log(DNAStrand ("ATTGC"))// -> "TAACG"
+console.log(DNAStrand ("GTAT"))// -> "CATA"
  
 
 
