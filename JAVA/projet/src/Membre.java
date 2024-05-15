@@ -39,7 +39,7 @@ public class Membre extends Personne {
         System.out.println("ID: " + getId());
         System.out.println("Date d'adhésion: " + dateAdhesion);
         System.out.println("Statut: " + statut);
-        
+
     }
 
 }

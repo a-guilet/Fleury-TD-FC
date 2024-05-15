@@ -49,7 +49,7 @@ public class Livre implements Empruntable {
         this.disponible = disponible;
     }
 
-    // Method to display details
+    // Methode
     public void afficherDetailsLivres() {
         System.out.println("Titre: " + titre);
         System.out.println("Auteur: " + auteur);
@@ -57,6 +57,8 @@ public class Livre implements Empruntable {
         System.out.println("Disponible: " + (disponible ? "Oui" : "Non"));
     }
 
+
+    //Standby
     public void emprunter() {
         if (disponible) {
             disponible = false;
@@ -74,6 +76,5 @@ public class Livre implements Empruntable {
             System.out.println("livre \"" + titre + "\" n'était pas pris.");
         }
     }
-
 
 }
