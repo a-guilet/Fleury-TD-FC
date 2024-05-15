@@ -1,0 +1,35 @@
+Partie 1 : Conception des Classes (50 points)
+
+Exercice 1 : Création des Classes de Base (20 points)
+
+    Créez une classe abstraite Personne avec les attributs suivants : nom (String), prénom (String), et id (int).
+    Ajoutez un constructeur, les getters et les setters pour les attributs de la classe Personne.
+    Ajoutez une méthode abstraite afficherDetails().
+    Créez une classe Membre qui hérite de Personne et ajoute les attributs suivants : dateAdhesion (Date) et statut (String).
+
+Exercice 2 : Création de la Classe Livre (20 points)
+
+    Créez une classe Livre avec les attributs suivants : titre (String), auteur (String), isbn (String) et disponible (boolean).
+    Ajoutez un constructeur, les getters et les setters pour les attributs de la classe Livre.
+    Créez une méthode afficherDetails qui affiche les informations sur le livre.
+
+Exercice 3 : Interface et Polymorphisme (10 points)
+
+    Créez une interface Empruntable avec une méthode emprunter et une méthode retourner.
+    Implémentez l'interface Empruntable dans la classe Livre.
+
+Partie 2 : Utilisation des Concepts de POO (50 points)
+
+Exercice 4 : Héritage, Polymorphisme et Classes Abstraites (20 points)
+
+    Créez une classe Employe qui hérite de Personne et ajoute les attributs suivants : poste (String) et salaire (double).
+    Ajoutez un constructeur, les getters et les setters pour les attributs de la classe Employe.
+    Implémentez la méthode afficherDetails dans la classe Employe qui affiche les informations sur l'employé.
+    Écrivez un programme principal qui crée une liste de Personne contenant à la fois des objets Membre et Employe. Utilisez le polymorphisme pour appeler la méthode afficherDetails sur chaque objet de la liste.
+
+Exercice 5 : Gestion des Emprunts (30 points)
+
+    Ajoutez un attribut emprunts (une liste d'objets Livre) à la classe Membre.
+    Implémentez la méthode emprunter dans la classe Membre pour ajouter un livre à la liste des emprunts et marquer le livre comme non disponible.
+    Implémentez la méthode retourner dans la classe Membre pour retirer un livre de la liste des emprunts et marquer le livre comme disponible.
+    Écrivez un programme principal qui simule l'emprunt et le retour de livres par des membres, affichant les détails pertinents après chaque opération.
