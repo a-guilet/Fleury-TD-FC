@@ -1,22 +1,21 @@
-//import java.util.Date;
 package projet.src;
 
-public class Personne {
+public abstract class Personne {
 
-    //attribut
+    // attribut
     private String nom;
     private String prenom;
     private int id;
 
-    //constructeur
-    public Personne (String nom, String prenom, int id) {
-         this.nom = nom;
-         this.prenom = prenom;
-         this.id = id;
+    // constructeur
+    public Personne(String nom, String prenom, int id) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.id = id;
 
     }
 
-    //getters
+    // getters
     public String getNom() {
         return nom;
     }
@@ -25,25 +24,24 @@ public class Personne {
         return prenom;
     }
 
-    public int getId(){
+    public int getId() {
         return id;
     }
 
-    //setters
-    public void setNom(String nom){
+    // setters
+    public void setNom(String nom) {
         this.nom = nom;
     }
-    public void setPrenom(String prenom){
+
+    public void setPrenom(String prenom) {
         this.prenom = prenom;
     }
 
-    public void setId(int id){
+    public void setId(int id) {
         this.id = id;
     }
 
-    //methode
-
- 
-
+    // methode
+    public abstract void afficherDetails();
 
 }
