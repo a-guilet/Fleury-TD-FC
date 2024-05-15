@@ -1,15 +1,19 @@
 package projet.src;
 
+import java.util.ArrayList;
+
 public class Employe {
 
     // Attributs
     private String poste;
     private Double salaire;
+    //private ArrayList emprunts;
 
     // Le constructeur
-    public Employe(String poste, Double salaire) {
+    public Employe(String poste, Double salaire, ArrayList emprunts) {
         this.poste = poste;
         this.salaire = salaire;
+      //  this.emprunts = emprunts;
     }
     // Getters
 
@@ -21,6 +25,10 @@ public class Employe {
         return salaire;
     }
 
+    // public ArrayList getEmprunt() {
+    //     return emprunts;
+    // }
+
     // setters
 
     public void setPoste(String poste) {
@@ -30,6 +38,10 @@ public class Employe {
     public void setSalaire(Double salaire) {
         this.salaire = salaire;
     }
+
+    // public void setEmprunt(ArrayList emprunts) {
+    //     this.emprunts = emprunts;
+    // }
 
     // Methode
     public void afficherDetailsEmploye() {

@@ -8,7 +8,7 @@ public class Main {
         membre.afficherDetails();
         Livre livre = new Livre("Les miserables goats", "Victor Hugoat", "9781234567890", true);
         livre.afficherDetailsLivres();
-        Employe employe = new Employe("Le Patron", 2000.00);
+        Employe employe = new Employe("Le Patron", 2000.00, null);
         employe.afficherDetailsEmploye();
 
 
